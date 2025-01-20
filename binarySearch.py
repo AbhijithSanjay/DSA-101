@@ -1,12 +1,3 @@
-"""def binarySearch()
-    while low<=high :
-    if l[mid]==tar :
-        print("element found at position : ",mid+1)
-    elif l[mid]>tar :
-        high=mid-1
-    else :
-        low=mid+1"""
-
 n=int(input("Enter the no of elements : "))
 print("enter ",n,"numbers : ")
 l=[]
