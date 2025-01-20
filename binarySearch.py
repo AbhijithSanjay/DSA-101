@@ -6,7 +6,7 @@ for i in range (n):
     l.append(x)
 tar=int(input("enter the target : "))
 low=0
-high=len(l)
+high=len(l)-1
 f=0
 while low<=high and f==0:
     mid=(low+high)//2
@@ -17,5 +17,7 @@ while low<=high and f==0:
         high=mid-1
     else :
         low=mid+1
+if f==0:
+    print("element not found ")
 
 
